@@ -1,0 +1,54 @@
+/* Body */
+body {
+    background: #003366;
+}
+
+/* Navbar */
+.navbar {
+    border-radius: 0 !important;
+}
+
+.navbar-default {
+    background-color: #00264d;
+    border-color: #000;
+    height: 8vh;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000
+}
+.navbar-header .logo
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Custom */
+.main-color-bg {
+    background-color: #00264d !important;
+    border-color: #00264d !important;
+    color: #fff;
+}
+
+/* Panel Title */
+.panel-title {
+    color: #fff;
+}
