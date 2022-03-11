@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Send Message - Skyblock Bot</title>
+      <script src="./static/Cookies.js"></script>
+      <script type="text/javascript">
+        var login_key = get_login_key("message_form");
+      </script>
+  </head>
+  <body>
+    <form action="/send_message/end", method="POST">
+    <div class="form-group">
+      <input type="text" class="form_control" id="title" aria-describedby="titleforembed" placeholder="Message" name="embed_title">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form_control" id="channel" aria-describedby="channelforembed" placeholder="Channel Id" name="channel_id">
+    </div>
+    <button type="submit" class="btn btn-secondary">Submit Ig :/</button>
+    </form>
+  </body>
+</html>

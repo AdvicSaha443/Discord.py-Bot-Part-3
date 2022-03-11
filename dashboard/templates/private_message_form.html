@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Send Private Message - Skyblock Bot</title>
+    <script src="./static/Cookies.js"></script>
+    <script type="text/javascript">
+      var login_key = get_login_key("private_embed_form");
+    </script>
+  </head>
+  <body>
+    <form action="/send_private_message/end", method="POST">
+      <div class="form-group">
+        <input type="text" class="form_control" id="title" aria-describedby="titleforembed" placeholder="Title" name="embed_title">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form_control" id="message" aria-describedby="messageforembed" placeholder="Message" name="embed_message">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form_control" id="user" aria-describedby="userforembed" placeholder="User Id" name="user_id">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form_control" id="color" aria-describedby="colorforembed" placeholder="Color" name="embed_color">
+      </div>
+      <button type="submit" class="btn btn-secondary">Submit Ig :/</button>
+    </form>
+  </body>
+</html>
