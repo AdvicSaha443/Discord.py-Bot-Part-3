@@ -1,3 +1,5 @@
+#this code won't work for wavelink version - 1.0.0 and above
+
 import asyncio
 import datetime as dt
 import random
